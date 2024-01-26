@@ -7,7 +7,7 @@ export default {
     './app/**/*.php',
     './resources/**/*.{php,js,ts,tsx,vue}',
     './resources/views/**/*.php',
-    './public/content/themes/matrix/index.php',
+    './public/content/themes/radicle/index.php',
   ],
   theme: {
     colors: {
@@ -43,8 +43,55 @@ export default {
         950: '#1e1b4b',
       },
     },
+    screens: {
+      galaxyflold: '280px',
+      xxs: '320px',
+      galaxys5: '360px',
+      iphone5: '375px',
+      iphone11: '425px',
+      xs: '480px',
+      mobile: '575px',
+      sm: '640px',
+      iphone6: '667px',
+      md: '768px',
+      galaxytabs: '800px',
+      tab: '993px',
+      lg: '1024px',
+      notebook: '1200px',
+      xl: '1280px',
+      latop: '1350px',
+      macbook: '1440px',
+      '2xl': '1536px',
+      desktop: '1600px',
+      '3xl': '1920px',
+      '4xl': '2560px',
+      '5xl': '3840px',
+    },
+    maxWidth: {
+      site: '1440px',
+    },
+    fontFamily: {
+      'primary': ['Roboto', 'sans-serif'],
+      'secondary': ['Roboto', 'sans-serif'],
+   },
+    fontSize: {
+      // 'xs': '0.75rem', // 12px
+      // 'sm': '0.875rem', // 14px
+      // 'base': '1rem', // 16px
+      // 'lg': '1.125rem', // 18px
+      // 'xl': '1.25rem', // 20px
+      // '2xl': '1.5rem', // 24px
+      // '3xl': '1.875rem', // 30px
+      // '4xl': '2.25rem', // 36px
+      // '5xl': '3rem', // 48px
+      // '6xl': '3.75rem', // 60px
+      // '7xl': '4.5rem', // 72px
+      // '8xl': '6rem', // 96px
+      // '9xl': '8rem', // 128px
+    },
   },
   plugins: [
     forms,
   ],
 } satisfies Config;
+
